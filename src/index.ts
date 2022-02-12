@@ -1,8 +1,4 @@
-import 'dotenv/config';
 import { Game } from './game';
 
 const game = new Game();
-
-while (!game.isGameOver) {
-  continue;
-}
+game.play();

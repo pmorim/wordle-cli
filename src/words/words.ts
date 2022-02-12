@@ -2,6 +2,7 @@ import { resolve } from 'path';
 import { readFileSync } from 'fs';
 
 export type Word = string;
+export type Letter = string;
 
 export function getWords(amount: number) {
   return new Set<Word>(
