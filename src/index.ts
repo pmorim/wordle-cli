@@ -1,6 +1,4 @@
-import { resolve } from 'path';
-import { readFileSync } from 'fs';
+import { getWords } from './words';
 
-const pathToWords = resolve(__dirname, 'assets/words.txt');
-const words = readFileSync(pathToWords).toString('utf-8').split('\n');
+const words = getWords();
 console.log(words);
