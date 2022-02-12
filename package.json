@@ -1,0 +1,9 @@
+{
+  "name": "wordle-cli",
+  "version": "1.0.0",
+  "description": "A simple CLI version of Wordle",
+  "main": "index.js",
+  "repository": "https://github.com/pmorim/wordle-cli.git",
+  "author": "pmorim",
+  "license": "MIT"
+}
