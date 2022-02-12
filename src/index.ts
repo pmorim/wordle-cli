@@ -1,4 +1,8 @@
-import { getWords } from './words';
+import 'dotenv/config';
+import { Game } from './game';
 
-const words = getWords();
-console.log(words);
+const game = new Game();
+
+while (!game.isGameOver) {
+  continue;
+}
